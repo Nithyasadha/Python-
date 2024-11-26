@@ -1,0 +1,5 @@
+print(isinstance('a',int))
+print(isinstance('3.4',float))
+print(isinstance('34-4j',int,complex))
+print(isinstance(True,(int,complex)))
+print(isinstance('6.7',(int,complex)))

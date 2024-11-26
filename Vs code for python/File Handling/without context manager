@@ -1,0 +1,11 @@
+f_=open('file1','r')
+print(f_)
+print(f_.name,f_.mode)
+print(f_.readable())
+print(f_.writable())
+print(f_.closed)
+'''f_.close()
+print(f_.closed)'''
+for n in f_:
+    print(n)
+
